@@ -3,7 +3,7 @@ services:
     name: telegram-fbuid-bot
     runtime: python
     buildCommand: ""
-    startCommand: "python main.py"
+    startCommand: "python bot.py"
     envVars:
       - key: TELEGRAM_TOKEN
         value: 7785173200:AAH8QFwn0SdYS_jVENStknA4gE2Dbc9ZIgo
