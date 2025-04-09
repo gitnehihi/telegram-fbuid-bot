@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: telegram-fbuid-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: "python main.py"
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: 7785173200:AAH8QFwn0SdYS_jVENStknA4gE2Dbc9ZIgo
+      - key: NOTIFY_CHAT_ID
+        value: "1278915994"
